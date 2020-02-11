@@ -30,3 +30,7 @@ Server: Docker Engine - Community
   Version:          0.18.0
   GitCommit:        fec3683
 ```
+
+## Cowsay
+
+A small game that draws a cow using ASCII characters in terminal. Patching with `fortune`, another small game that randomly prints a quote, we can create our first simple Docker images based upon latest Debian image. And then run it to see in action.
