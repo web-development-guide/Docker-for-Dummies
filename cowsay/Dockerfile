@@ -1,5 +1,9 @@
 FROM debian:latest
 
+LABEL version="1.0.0"
+LABEL name="Cowsay"
+LABEL author="Progyan Bhattacharya <bprogyan@gmail.com>"
+
 RUN apt-get update -y
 RUN apt-get install cowsay fortune -y
 
