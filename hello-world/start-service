@@ -1,0 +1,4 @@
+#!/bin/sh
+
+docker build -t test/hello-world .
+docker run -p 3000:3000 test/hello-world

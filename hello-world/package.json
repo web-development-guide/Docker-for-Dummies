@@ -1,0 +1,13 @@
+{
+  "name": "hello-world-api",
+  "version": "1.0.0",
+  "description": "Text-based API to return Hello World for GET request",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "latest"
+  }
+}
