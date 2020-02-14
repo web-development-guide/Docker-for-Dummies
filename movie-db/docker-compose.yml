@@ -1,0 +1,17 @@
+version: "3"
+services:
+  api-service:
+    build: "./api"
+    environment:
+      - NODE_ENV=production
+      - NODE_PORT=3000
+    volumes:
+      - ./api:/home/node/app
+    ports:
+      - "3000:3000"
+  web:
+    image: "php:7.4.2-apache"
+    volumes:
+      - ./web:/var/www/html
+    ports:
+      - "8080:80"

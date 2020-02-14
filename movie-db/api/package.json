@@ -1,0 +1,14 @@
+{
+  "name": "movie-db-api",
+  "version": "1.0.0",
+  "description": "RESTful API for Movies DB",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "latest",
+    "body-parser": "latest"
+  }
+}
