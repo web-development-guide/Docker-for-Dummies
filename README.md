@@ -34,3 +34,11 @@ Server: Docker Engine - Community
 ## Cowsay
 
 A small game that draws a cow using ASCII characters in terminal. Patching with `fortune`, another small game that randomly prints a quote, we can create our first simple Docker images based upon latest Debian image. And then run it to see in action.
+
+## Hello World
+
+A plain-text stateless API server that responds `Hello World from API` on being hit GET at `/` of API server. One can see both the message from server, `Hello World from Server` coming from container, and the API message comming from HTTP response.
+
+## Movies DB
+
+A mock REST API and it's consumer that lists a number of movies. The API is based upon Node.JS runtime using Express as RESTful framework. The web client application, on the other hand is, based upon PHP-Zend Engine. The web client consumes REST API endpoint `/movies` and emitts a unordered list of movies from JSON response.
