@@ -1,0 +1,19 @@
+{
+  "name": "todo-api",
+  "version": "1.0.0",
+  "description": "REST API for Todo List App",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "latest",
+    "compression": "latest",
+    "cors": "latest",
+    "express": "latest",
+    "mariadb": "latest",
+    "morgan": "latest",
+    "sequelize": "latest"
+  }
+}
